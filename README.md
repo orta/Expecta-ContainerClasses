@@ -8,16 +8,16 @@
 
 The best example is testing API callbacks for types:
 
-  it(@"does something from an API", ^AsyncBlock {
-    
-      ARImageDownloader *downloader = [[ARImageDownloader alloc] init];
-      [downloader downloadImages:^(NSArray *objects) {
-        ...
-        expect(objects).to.containInstancesOfClass(ARImageFormat.class);
-        ...
-        done();
-      }];
-  });
+	it(@"does something from an API", ^AsyncBlock {
+	
+		ARImageDownloader *downloader = [[ARImageDownloader alloc] init];
+			[downloader downloadImages:^(NSArray *objects) {
+			...
+			expect(objects).to.containInstancesOfClass(ARImageFormat.class);
+			...
+			done();
+		}];
+	});
 
 
 if you prefer you can also use `onlyContainInstancesOfClass`. Also gives back a useful fail message telling you what other classes have sneaked into your set or an array.
@@ -28,7 +28,7 @@ Expecta+ContainerClasses is available through [CocoaPods](http://cocoapods.org),
 
     pod "Expecta+ContainerClasses"
 
-It's likely that you'll want this in a testing subset, this looks like:
+It's likely that you'll want this in a testing subset, this usually looks like:
 
 
     target 'MyApp Tests', :exclusive => true do
@@ -41,6 +41,7 @@ It's likely that you'll want this in a testing subset, this looks like:
 ## Author
 
 [@Orta](http://twitter.com/orta), orta.therox@gmail.com
+
 [http://orta.github.io](http://orta.github.io)
 
 ## License
