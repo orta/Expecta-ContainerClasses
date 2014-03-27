@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Expecta+ContainerClasses"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Adds containInstancesOfClass to expecta's matchers."
   s.description      = <<-DESC
                        Extends expecta to include matchers for testing that sets or arrays contain
