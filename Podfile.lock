@@ -1,0 +1,18 @@
+PODS:
+  - Expecta (0.3.0)
+  - Expecta+ContainerClasses (1.0.0):
+    - Expecta (~> 0.3)
+
+DEPENDENCIES:
+  - Expecta (~> 0.3)
+  - Expecta+ContainerClasses (from `Expecta+ContainerClasses.podspec`)
+
+EXTERNAL SOURCES:
+  Expecta+ContainerClasses:
+    :path: Expecta+ContainerClasses.podspec
+
+SPEC CHECKSUMS:
+  Expecta: 322f1dc42610106a5ba9871b4924cf1635d80833
+  Expecta+ContainerClasses: 4bac9d14bbeb26b99f32a506842c894087a8b12c
+
+COCOAPODS: 0.29.0

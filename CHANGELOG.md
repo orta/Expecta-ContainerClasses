@@ -1,5 +1,6 @@
-# expecta-container-classes CHANGELOG
+# Expecta+ContainerClasses
 
-## 0.1.0
+## 1.0.0
 
-Initial release.
+Initial release. 
+Supports parsing through NSSet & NSArray and checking that they contain a single type of class.
