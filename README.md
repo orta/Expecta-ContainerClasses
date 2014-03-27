@@ -1,7 +1,7 @@
 # Expecta+ContainerClasses
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/expecta-container-classes/badge.png)](http://cocoadocs.org/docsets/expecta-container-classes)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/expecta-container-classes/badge.png)](http://cocoadocs.org/docsets/expecta-container-classes)
+[![Version](http://cocoapod-badges.herokuapp.com/v/expecta-container-classes/badge.png)](http://cocoadocs.org/docsets/Expecta+ContainerClasses)
+[![Platform](http://cocoapod-badges.herokuapp.com/p/expecta-container-classes/badge.png)](http://cocoadocs.org/docsets/Expecta+ContainerClasses)
 [![Build Status](https://travis-ci.org/orta/Expecta-ContainerClasses.svg)](https://travis-ci.org/orta/Expecta-ContainerClasses)
 
 ## What it does
