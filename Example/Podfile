@@ -1,0 +1,7 @@
+pod "expecta-container-classes", :path => "../expecta-container-classes.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
