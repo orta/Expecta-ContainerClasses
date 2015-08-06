@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		09A5EAC97BAE42548E44C789 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		05BA0F8ACAED6AE05734A070 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		2755ED54EC2443D183AB3F36 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		60AB5F2C18E47CA8005FD253 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60AB5F2F18E47CA8005FD253 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -32,6 +32,7 @@
 		60AB5F4218E482AE005FD253 /* EXPExpect+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPExpect+Test.m"; sourceTree = "<group>"; };
 		60AB5F4318E482AE005FD253 /* FakeTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeTestCase.h; sourceTree = "<group>"; };
 		60AB5F4418E482AE005FD253 /* FakeTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeTestCase.m; sourceTree = "<group>"; };
+		C2BD53DAECBE4AB31AF6A361 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +56,7 @@
 				60AB5F3518E47CA8005FD253 /* UnitTests */,
 				60AB5F2E18E47CA8005FD253 /* Frameworks */,
 				60AB5F2D18E47CA8005FD253 /* Products */,
-				09A5EAC97BAE42548E44C789 /* Pods.xcconfig */,
+				ACBAB301816BFE8E892C042A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +100,15 @@
 				60AB5F3D18E47CA8005FD253 /* UnitTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACBAB301816BFE8E892C042A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2BD53DAECBE4AB31AF6A361 /* Pods.debug.xcconfig */,
+				05BA0F8ACAED6AE05734A070 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,7 +197,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -231,7 +241,7 @@
 		};
 		60AB5F3E18E47CA8005FD253 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09A5EAC97BAE42548E44C789 /* Pods.xcconfig */;
+			baseConfigurationReference = C2BD53DAECBE4AB31AF6A361 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -279,7 +289,7 @@
 		};
 		60AB5F3F18E47CA8005FD253 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09A5EAC97BAE42548E44C789 /* Pods.xcconfig */;
+			baseConfigurationReference = 05BA0F8ACAED6AE05734A070 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
